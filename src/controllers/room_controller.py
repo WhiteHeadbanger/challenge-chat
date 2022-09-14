@@ -1,6 +1,6 @@
 from flask import request, session, jsonify
 
-from src.models.group import Room
+from src.models.room import Room
 from src.models.chat import Chat
 
 chat = Chat()
